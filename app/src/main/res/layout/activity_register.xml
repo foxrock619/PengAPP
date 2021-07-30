@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="388dp" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="222dp"
+        android:layout_height="49dp"
+        android:text="REGISTER"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="570dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Registration"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="220dp"
+        android:layout_height="51dp"
+        android:text="BACK"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="634dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="PengChat"
+        android:textColor="@color/teal_700"
+        android:textSize="34sp"
+        android:typeface="sans"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
